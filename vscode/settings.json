@@ -1,0 +1,18 @@
+{
+    "window.zoomLevel": 0,
+    "prettier.requireConfig": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.formatOnPaste": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.value": 5,
+    "workbench.editor.openPositioning": "left",
+    "workbench.editor.showIcons": false,
+    "zenMode.restore": true,
+    "zenMode.hideLineNumbers": false,
+    "workbench.colorTheme": "Default High Contrast"
+}
