@@ -61,19 +61,42 @@
     },
     // Block travel
     {
-        "key": "ctrl+shift+down",
-        "command": "block-travel.selectDown",
+        "key": "ctrl+up",
+        "command": "cursorMove",
+        "args": {
+            "to": "up",
+            "by": "line",
+            "value": 10
+        },
+        "when": "editorTextFocus"
     },
     {
         "key": "ctrl+down",
-        "command": "block-travel.jumpDown",
+        "command": "cursorMove",
+        "args": {
+            "to": "down",
+            "by": "line",
+            "value": 10
+        },
+        "when": "editorTextFocus"
+    },
+    // Open reference
+    {
+        "key": "ctrl+cmd+3",
+        "command": "workbench.action.focusThirdEditorGroup"
     },
     {
-        "key": "ctrl+shift+up",
-        "command": "block-travel.selectUp",
+        "key": "cmd+3",
+        "command": "-workbench.action.focusThirdEditorGroup"
     },
     {
-        "key": "ctrl+up",
-        "command": "block-travel.jumpUp",
+        "key": "cmd+3",
+        "command": "editor.action.goToReferences",
+        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    },
+    {
+        "key": "shift+f12",
+        "command": "-editor.action.goToReferences",
+        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
     }
 ]
