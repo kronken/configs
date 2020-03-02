@@ -59,4 +59,21 @@
         "key": "ctrl+-",
         "command": "-workbench.action.zoomOut"
     },
+    // Block travel
+    {
+        "key": "ctrl+shift+down",
+        "command": "block-travel.selectDown",
+    },
+    {
+        "key": "ctrl+down",
+        "command": "block-travel.jumpDown",
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "block-travel.selectUp",
+    },
+    {
+        "key": "ctrl+up",
+        "command": "block-travel.jumpUp",
+    }
 ]
