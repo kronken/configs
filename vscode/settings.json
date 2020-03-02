@@ -15,10 +15,5 @@
     "zenMode.restore": true,
     "zenMode.hideLineNumbers": false,
     "workbench.colorTheme": "Default High Contrast",
-    "editor.gotoLocation.multipleDeclarations": "goto",
-    "editor.gotoLocation.multipleDefinitions": "goto",
-    "editor.gotoLocation.multipleImplementations": "goto",
-    "editor.gotoLocation.multipleReferences": "goto",
-    "editor.gotoLocation.multipleTypeDefinitions": "goto",
     "editor.cursorSurroundingLines": 10
 }
