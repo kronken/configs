@@ -63,5 +63,10 @@
             "value": 10
         },
         "when": "editorTextFocus"
+    },
+    // Switch between windows
+    {
+        "key": "cmd+[IntlBackslash]",
+        "command": "workbench.action.quickSwitchWindow"
     }
 ]
